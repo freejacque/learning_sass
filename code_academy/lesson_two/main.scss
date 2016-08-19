@@ -70,6 +70,7 @@
   z-index: 1;
   word-wrap: break-word;
   line-height: 1.6;
+  @include transform(rotatey(-180deg));
 
     .definition {
       width: 100%;
