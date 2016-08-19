@@ -1,0 +1,19 @@
+@mixin dashed-border($width, $color: #FFF) {
+  border: {
+     color: $color;
+     width: $width;
+     style: dashed;
+  }
+}
+
+span { //only passes non-default argument
+    @include dashed-border(3px);
+}
+
+p { //passes both arguments
+    @include dashed-border(3px, green);
+}
+
+div { //passes out of order but explicitly defined
+   @include dashed-border(color: purple, width: 5px);
+}
