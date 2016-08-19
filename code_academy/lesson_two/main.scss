@@ -1,4 +1,5 @@
-@mixin backface-visibility($visibility) {
+//a mixin with a parameter
+@mixin backface-visibility($visibility: hidden) {
   backface-visibility: $visibility;
   -webkit-backface-visibility: $visibility;
   -moz-backface-visibility: $visibility;
@@ -6,6 +7,8 @@
   -o-backface-visibility: $visibility;
 }
 
+// the $stripe-background param has a default value set
+// it isn't necessary to pass in a value for that parameter
 @mixin stripes($direction, $width-percent, $stripe-color, $stripe-background: #FFF) {
   background: repeating-linear-gradient(
     $direction,
@@ -43,7 +46,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    @include backface-visibility(hidden);
+    @include backface-visibility;
   }
 
   .front {
