@@ -94,6 +94,7 @@ $stripe-properties: to bottom, 15%, blue, white;
     .definition {
       width: 100%;
       height: 100%;
+      @include stripes($stripe-properties...);
 
       .photo {
         width: 60%;
