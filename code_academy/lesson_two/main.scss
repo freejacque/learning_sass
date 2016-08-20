@@ -1,3 +1,10 @@
+@mixin transition($time){
+  transition: $time;
+  -webkit-transition: $time;
+  -moz-transition: $time;
+  -o-transition: $time;
+}
+
 @mixin transform-style($style){
    transform-style: $style;
   -moz-transform-style: $style;
