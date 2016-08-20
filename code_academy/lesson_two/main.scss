@@ -1,3 +1,11 @@
+@mixin transform-style($style){
+   transform-style: $style;
+  -moz-transform-style: $style;
+  -o-transform-style: $style;
+  -ms-transform-style: $style;
+  -webkit-transform-style: $style;
+}
+
 //a mixin with a parameter
 @mixin backface-visibility($visibility: hidden) {
   backface-visibility: $visibility;
