@@ -43,6 +43,11 @@
   z-index: 1;
   word-wrap: break-word;
   line-height: 1.6;
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
 }
 
 .notecard .back .definition {
