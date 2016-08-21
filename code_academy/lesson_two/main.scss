@@ -44,7 +44,8 @@ $stripe-properties: to bottom, 15%, blue, white;
   -o-transform: $transformation;
 }
 
-@mixin photo-content {
+@mixin photo-content($file) {
+  content: url(#{$file}.jpg);
   object-fit: cover;
 }
 
