@@ -26,3 +26,6 @@ p { //passes both arguments
 div { //passes out of order but explicitly defined
    @include dashed-border(color: purple, width: 5px);
 }
+
+string interpolation
+  notation: #{$var}.jpg
