@@ -28,4 +28,4 @@ div { //passes out of order but explicitly defined
 }
 
 string interpolation
-  notation: #{$var}.jpg
+  notation: #{$param}.jpg
