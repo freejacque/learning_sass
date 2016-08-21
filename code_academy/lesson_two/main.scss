@@ -97,6 +97,7 @@ $stripe-properties: to bottom, 15%, blue, white;
       @include stripes($stripe-properties...);
 
       .photo {
+        @include photo-content('titanosaur');
         width: 60%;
         margin: 0px auto;
 
