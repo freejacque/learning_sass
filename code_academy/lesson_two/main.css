@@ -66,6 +66,8 @@
 }
 
 .notecard .back .definition .photo {
+  content: url(titanosaur.jpg);
+  object-fit: cover;
   width: 60%;
   margin: 0px auto;
 }
