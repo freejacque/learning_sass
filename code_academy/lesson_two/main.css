@@ -40,6 +40,10 @@
   top: 40%;
 }
 
+.notecard .front .word:hover {
+  color: red;
+}
+
 .notecard .front:hover {
   transform: rotatey(-180deg);
   -webkit-transform: rotatey(-180deg);
