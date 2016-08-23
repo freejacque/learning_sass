@@ -49,7 +49,11 @@ $stripe-properties: to bottom, 15%, blue, white;
   object-fit: cover;
 }
 
-//Add your own mixins here
+@mixin hover-color($color) {
+   &:hover{
+       color: $color;
+   }
+}
 
 .notecard {
   width: 300px;
