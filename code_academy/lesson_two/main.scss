@@ -82,6 +82,7 @@ $stripe-properties: to bottom, 15%, blue, white;
       text-align: center;
       position: relative;
       top: 40%;
+      @include hover-color(red);
     }
 
     &:hover{
