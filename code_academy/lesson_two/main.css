@@ -44,14 +44,6 @@
   color: red;
 }
 
-.notecard .front:hover {
-  transform: rotatey(-180deg);
-  -webkit-transform: rotatey(-180deg);
-  -moz-transform: rotatey(-180deg);
-  -ms-transform: rotatey(-180deg);
-  -o-transform: rotatey(-180deg);
-}
-
 .notecard .back {
   z-index: 1;
   word-wrap: break-word;
