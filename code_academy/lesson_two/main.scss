@@ -84,10 +84,6 @@ $stripe-properties: to bottom, 15%, blue, white;
       top: 40%;
       @include hover-color(red);
     }
-
-    &:hover{
-      @include transform (rotatey(-180deg));
-    }
   }
 
 
