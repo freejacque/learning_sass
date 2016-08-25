@@ -1,6 +1,11 @@
 Sass Functions
 
 
- fade-out: makes a color more transparent, takes a number between 0 and 1 and decreasing opacity by that amount
+ fade-out:
+  makes a color more transparent, takes a number between 0 and 1 and decreasing opacity by that amount
 
- fade-in: increases the opacity of a color
+ fade-in:
+  increases the opacity of a color
+
+adjust-hue($color, $degrees):
+  changes the hue of a color. Takes a color and a number of degrees (usually between -360 degrees and 360 degrees), and rotates the color wheel by that amount.
