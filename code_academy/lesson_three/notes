@@ -1,4 +1,6 @@
 Sass Functions
 
 
- fade-out : makes a color more transparent, takes a number between 0 and 1 and decreasing opacity by that amount
+ fade-out: makes a color more transparent, takes a number between 0 and 1 and decreasing opacity by that amount
+
+ fade-in: increases the opacity of a color
