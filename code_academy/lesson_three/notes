@@ -9,3 +9,14 @@ Sass Functions
 
 adjust-hue($color, $degrees):
   changes the hue of a color. Takes a color and a number of degrees (usually between -360 degrees and 360 degrees), and rotates the color wheel by that amount.
+
+
+Sass math operations:
+
+addition +
+subtraction -
+multiplication *
+division /
+modulo %.
+
+- to multiply units use ex. 10px * 10 = 100px (CSS doesn't accept squared units)
