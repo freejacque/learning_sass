@@ -20,3 +20,9 @@ division /
 modulo %.
 
 - to multiply units use ex. 10px * 10 = 100px (CSS doesn't accept squared units)
+
+- when / is division
+  width: $variable/6; //division
+  line-height: (600px)/9; //division
+  margin-left: 20-10 px/ 2; //division
+  font-size: 10px/8px; //not division
