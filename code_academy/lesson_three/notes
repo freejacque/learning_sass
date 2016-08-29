@@ -31,3 +31,12 @@ Each loops in Sass iterate on each of the values on a list.
   @each $item in $list {
     //some rules and or conditions
   }
+
+for loops
+  @for $i from $begin through $end {
+     //some rules and or conditions
+  } or
+
+  @for $i from $begin to $end {
+   //some rules and or conditions
+}
