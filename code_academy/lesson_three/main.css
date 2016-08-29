@@ -20,3 +20,47 @@
 .teal {
   background: teal;
 }
+
+.ray {
+  height: 30px;
+}
+
+.ray:nth-child(1) {
+  background: blue;
+}
+
+.ray:nth-child(2) {
+  background: blue;
+}
+
+.ray:nth-child(3) {
+  background: blue;
+}
+
+.ray:nth-child(4) {
+  background: blue;
+}
+
+.ray:nth-child(5) {
+  background: blue;
+}
+
+.ray:nth-child(6) {
+  background: blue;
+}
+
+.ray:nth-child(7) {
+  background: blue;
+}
+
+.ray:nth-child(8) {
+  background: blue;
+}
+
+.ray:nth-child(9) {
+  background: blue;
+}
+
+.ray:nth-child(10) {
+  background: blue;
+}
