@@ -26,3 +26,8 @@ modulo %.
   line-height: (600px)/9; //division
   margin-left: 20-10 px/ 2; //division
   font-size: 10px/8px; //not division
+
+Each loops in Sass iterate on each of the values on a list.
+  @each $item in $list {
+    //some rules and or conditions
+  }
