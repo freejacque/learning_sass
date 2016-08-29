@@ -1,7 +1,5 @@
 $width: 250px;
 $lagoon-blue: fade-out(#62fdca, 0.5);
-$list: (orange, purple, teal);
-
 
 
 .math {
@@ -13,4 +11,13 @@ $list: (orange, purple, teal);
   line-height: $width/6;
   border-radius: $width/30;
   font-size: $width/6/2;
+}
+
+
+$list: (orange, purple, teal);
+
+@each $item in $list {
+  .#{$item} {
+    background: $item;
+  }
 }
