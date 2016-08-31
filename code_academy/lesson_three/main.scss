@@ -31,6 +31,6 @@ $step: 360deg / $total; //Used to compute the hue based on color-wheel
 
 @for $i from 1 through $total {
   .ray:nth-child(#{$i}) {
-    background: blue;
+    background: adjust-hue(blue, $i * $step);
    }
 }
