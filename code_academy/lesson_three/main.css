@@ -26,39 +26,39 @@
 }
 
 .ray:nth-child(1) {
-  background: blue;
+  background: #9900ff;
 }
 
 .ray:nth-child(2) {
-  background: blue;
+  background: #ff00cc;
 }
 
 .ray:nth-child(3) {
-  background: blue;
+  background: #ff0033;
 }
 
 .ray:nth-child(4) {
-  background: blue;
+  background: #ff6600;
 }
 
 .ray:nth-child(5) {
-  background: blue;
+  background: yellow;
 }
 
 .ray:nth-child(6) {
-  background: blue;
+  background: #66ff00;
 }
 
 .ray:nth-child(7) {
-  background: blue;
+  background: #00ff33;
 }
 
 .ray:nth-child(8) {
-  background: blue;
+  background: #00ffcc;
 }
 
 .ray:nth-child(9) {
-  background: blue;
+  background: #0099ff;
 }
 
 .ray:nth-child(10) {
