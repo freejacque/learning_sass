@@ -40,3 +40,21 @@ for loops
   @for $i from $begin to $end {
    //some rules and or conditions
 }
+
+Conditionals
+
+width: if( $condition, $value-if-true, $value-if-false);
+
+or
+
+@mixin deck($suit) {
+ @if($suit == hearts || $suit == spades){
+   color: blue;
+ }
+ @else-if($suit == clovers || $suit == diamonds){
+   color: red;
+ }
+ @else{
+   //some rule
+ }
+}
