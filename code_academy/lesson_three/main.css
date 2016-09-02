@@ -27,6 +27,7 @@
 
 .ray:nth-child(1) {
   background: #9900ff;
+  margin-left: 50px;
 }
 
 .ray:nth-child(2) {
@@ -35,6 +36,7 @@
 
 .ray:nth-child(3) {
   background: #ff0033;
+  margin-left: 50px;
 }
 
 .ray:nth-child(4) {
@@ -43,6 +45,7 @@
 
 .ray:nth-child(5) {
   background: yellow;
+  margin-left: 50px;
 }
 
 .ray:nth-child(6) {
@@ -51,6 +54,7 @@
 
 .ray:nth-child(7) {
   background: #00ff33;
+  margin-left: 50px;
 }
 
 .ray:nth-child(8) {
@@ -59,6 +63,7 @@
 
 .ray:nth-child(9) {
   background: #0099ff;
+  margin-left: 50px;
 }
 
 .ray:nth-child(10) {
