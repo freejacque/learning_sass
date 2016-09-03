@@ -1,3 +1,13 @@
 @import can be used to import other scss files
 
 everything is imported into a main.scss file and that file is used to create the css file
+
+file structure:
+  Sass:
+    helper:
+      _mixins.scss
+      _placeholders.scss
+      _variables.scss
+    main.css
+    main.scss
+  index.html
