@@ -18,6 +18,7 @@ h1 {
   }
 
   .slogan {
+    @extend .absolute;
     background-color: $translucent-white;
     border: 4px solid black;
     top: 200px;
@@ -26,6 +27,7 @@ h1 {
     @include dimensions(50%, 200px);
 
     span {
+      @extend .absolute;
       @include center;
       width: 40%;
       left: 30%;

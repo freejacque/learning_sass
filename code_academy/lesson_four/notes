@@ -17,4 +17,4 @@ partial naming _filename.scss
 import partial:
 @import "variables";
 
-@extend - used to give one class the rules of another
+@extend - used to give one class the rules of another, removes the need to have multiple classes on an element
