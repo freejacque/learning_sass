@@ -45,3 +45,7 @@ h1 {
     @include dimensions(300px, 300px);
   }
 }
+
+.absolute {
+   position: absolute
+}
