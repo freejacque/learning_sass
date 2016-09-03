@@ -41,3 +41,7 @@ h1 {
   width: 300px;
   height: 300px;
 }
+
+.absolute, .banner .slogan, .banner .slogan span {
+  position: absolute;
+}
