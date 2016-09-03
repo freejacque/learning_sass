@@ -13,3 +13,5 @@ file structure:
   index.html
 
 partial naming _filename.scss
+import partial:
+@import "variables";
