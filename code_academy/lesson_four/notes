@@ -20,4 +20,14 @@ import partial:
 @extend - used to give one class the rules of another, removes the need to have multiple classes on an element
 
 placeholders: can only be used when used as an @extend
-ex a%drink
+ex a%drink {
+  font-size: 2em;
+}
+
+.lemonade {
+  @extend %drink;
+}
+in css:
+a.lemonade {
+  font-size: 2em;
+}
