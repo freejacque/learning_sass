@@ -3,10 +3,13 @@
   position: absolute;
 }
 
-h1 {
-  font-family: Roboto, sans-serif;
+h1, .banner .slogan span {
   text-align: center;
   vertical-align: middle;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
 }
 
 .banner {
@@ -28,8 +31,6 @@ h1 {
 }
 
 .banner .slogan span {
-  text-align: center;
-  vertical-align: middle;
   width: 40%;
   left: 30%;
 }
