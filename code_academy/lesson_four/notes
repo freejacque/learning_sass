@@ -31,3 +31,7 @@ in css:
 a.lemonade {
   font-size: 2em;
 }
+
+mixins vs @extend
+- only use a mixin when it takes an argument, otherwise extend
+- always check the css output to make sure your extend is working properly
