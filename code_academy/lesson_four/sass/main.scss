@@ -5,7 +5,7 @@
 
 h1 {
   font-family: Roboto, sans-serif;
-  @include center;
+  @extend %center;
 }
 
 .banner {
@@ -28,7 +28,7 @@ h1 {
 
     span {
       @extend %absolute;
-      @include center;
+      @extend %center;
       width: 40%;
       left: 30%;
     }
